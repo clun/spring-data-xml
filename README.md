@@ -1,8 +1,10 @@
 
+## Spring Data Cassandra with XML Keyspace creations
+
 - Clone this repo
 
 ```
-git clone 
+git clone https://github.com/clun/spring-data-xml.git
 cd spring-data-xml
 ```
 
@@ -20,7 +22,7 @@ cqlsh
 describe keyspaces
 ```
 
-- Now start application
+- Start application
 
 ```bash
 mvn spring-boot:run
